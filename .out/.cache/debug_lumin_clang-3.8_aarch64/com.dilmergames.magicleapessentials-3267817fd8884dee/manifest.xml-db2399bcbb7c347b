@@ -1,0 +1,8 @@
+<manifest xmlns:ml="magicleap" ml:developer_id="eca8b656-2c36-47fb-abe6-42b4483b5048" ml:package="com.dilmergames.magicleapessentials" ml:version_code="1" ml:version_name="1.0.0">
+  <application ml:min_api_level="4" ml:sdk_version="1.0" ml:visible_name="MagicLeapEssentials">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="MagicLeapEssentials">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="LowLatencyLightwear" />
+  </application>
+</manifest>
