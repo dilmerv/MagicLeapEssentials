@@ -4,5 +4,8 @@
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>
     <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
   </application>
 </manifest>

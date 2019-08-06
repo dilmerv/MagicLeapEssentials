@@ -9,3 +9,7 @@ Results from various examples taught in YouTube:
 - Rotating Earth: Demo with New Lumin SDK 0.22.0
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif)
+
+- Earth With Rocket Controller: 
+
+![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrocket.gif)

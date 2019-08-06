@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "1f3b1041e3e30b20c7a8a95ba0704040cb55f2bf",
+   "hash": "5cb30704dc3a82f31781ce76e498b866134700a9",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3076548,
+   "size": 3370292,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "a0b84e3405ea022340f146cbdd06f5db29dfadae",
+   "hash": "72fbe305c89571169e73aab26ee3aef98cda9e86",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 46875008,
+   "size": 52924392,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "500c2a56ef090374d5ecd8523b1acd053734aad3",
+   "xfrm_hash": "f9d7bb8e7a61abd241076fbd07958600ae89d2f4",
    "xfrm_path": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.magicleapessentials-3267817fd8884dee/libil2cpp.so-decbd2c5d18f4f52",
-   "xfrm_size": 46875766
+   "xfrm_size": 52925150
   },
   {
    "compression": 8,
@@ -172,37 +172,37 @@
   },
   {
    "compression": 8,
-   "hash": "0b5fa1201f04c6c551a7c7f521e030fddc1a5e05",
+   "hash": "5f518cb84fde85aaff379e964383c054f117a7f4",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 60120,
+   "size": 64032,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "b3eb6bd69225f7e43a4d8ec8cd64ac500aacb49c",
+   "hash": "1db879a9367b7bbf3d3345d25145a58f5b91aa2c",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 84404,
+   "size": 93556,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "110ad9b4a827371d2cc496a2d960622e653f4508",
+   "hash": "78f1667c6e84dc1ecb8da183c391b2f2210cd07d",
    "pkgpath": "Data/level0",
-   "size": 6028,
+   "size": 49060,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/level0"
   },
   {
    "compression": 8,
-   "hash": "885af4595d3e37f5a16f5b24618cdb465c6e7184",
+   "hash": "268e1bbd219b42efaa421dce6ab6de4efdd27399",
    "pkgpath": "Data/level0.resS",
    "size": 131232,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/level0.resS"
   },
   {
    "compression": 8,
-   "hash": "224bc5ad7320dedd8bc037ba82577ab1af323993",
+   "hash": "2aa3e39bb6182d3d885305059bf321ab6e31807e",
    "pkgpath": "Data/resources.assets",
-   "size": 551248,
+   "size": 49224,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/resources.assets"
   },
   {
@@ -221,17 +221,24 @@
   },
   {
    "compression": 8,
-   "hash": "2000256e9736e283c754b556dcf9f9660fe5b88a",
+   "hash": "e1313098d0e23671c7af38c51600f34448c63faa",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 305080,
+   "size": 9412040,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "212a55cde33c5f7554c7b320c8994963a20c79db",
+   "hash": "bba1e5328f26e70db99410ea6255247a54c53848",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 1048576,
+   "size": 10914452,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "ce715a87900ab43aec874ae396406f8d7d04d584",
+   "pkgpath": "Data/sharedassets0.resource",
+   "size": 5259968,
+   "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/sharedassets0.resource"
   },
   {
    "compression": 8,
@@ -255,9 +262,9 @@
   },
   {
    "compression": 8,
-   "hash": "9a4e97cff07117e29d45ed63b940a12f895a25a6",
+   "hash": "db24fc6f4207e4914b8aa70fc9dfcbadaa09eb6a",
    "pkgpath": "manifest.xml",
-   "size": 565,
+   "size": 712,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -265,9 +272,9 @@
      "developer_id": "eca8b656-2c36-47fb-abe6-42b4483b5048"
     }
    },
-   "xfrm_hash": "583c5d31c1a8c42090379e253025c47bb49c3d32",
+   "xfrm_hash": "21a68e1d11939c58be2e04c5e56eb310912f95a4",
    "xfrm_path": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.magicleapessentials-3267817fd8884dee/manifest.xml-db2399bcbb7c347b",
-   "xfrm_size": 578
+   "xfrm_size": 725
   },
   {
    "compression": 8,
