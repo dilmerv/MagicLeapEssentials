@@ -10,6 +10,6 @@ Results from various examples taught in YouTube:
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif)
 
-- Earth With Rocket Controller: 
+- Earth With Rocket Controller
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrocket.gif)
