@@ -13,3 +13,7 @@ Results from various examples taught in YouTube:
 - Earth With Rocket Controller
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrocket.gif)
+
+- Particles Collisions with ML Spatial Mapper 
+
+![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/particlecollisions.gif)
