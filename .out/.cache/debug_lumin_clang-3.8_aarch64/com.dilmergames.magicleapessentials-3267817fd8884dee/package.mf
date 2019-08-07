@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "5cb30704dc3a82f31781ce76e498b866134700a9",
+   "hash": "be4ac0bd637447b5ccd40e060a30c61f16745c70",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3370292,
+   "size": 3370432,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "72fbe305c89571169e73aab26ee3aef98cda9e86",
+   "hash": "ff47abc23456228aecde455a64cd30f6f62af3a9",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 52924392,
+   "size": 52926408,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "f9d7bb8e7a61abd241076fbd07958600ae89d2f4",
+   "xfrm_hash": "910d48ea9503ec4f5762f9c4caed5eb3eb914359",
    "xfrm_path": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.magicleapessentials-3267817fd8884dee/libil2cpp.so-decbd2c5d18f4f52",
-   "xfrm_size": 52925150
+   "xfrm_size": 52927166
   },
   {
    "compression": 8,
@@ -172,23 +172,23 @@
   },
   {
    "compression": 8,
-   "hash": "5f518cb84fde85aaff379e964383c054f117a7f4",
+   "hash": "0153fc5d5982fbc933ab9e7c62b58130575f1f9d",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 64032,
+   "size": 64096,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "1db879a9367b7bbf3d3345d25145a58f5b91aa2c",
+   "hash": "6ea534504918725ebe8e1ced6749b13834f048ac",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 93556,
+   "size": 93644,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
    "compression": 8,
-   "hash": "78f1667c6e84dc1ecb8da183c391b2f2210cd07d",
+   "hash": "45c391653beebcfd86641e693c2e53d2c4774862",
    "pkgpath": "Data/level0",
-   "size": 49060,
+   "size": 25268,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/level0"
   },
   {
@@ -200,9 +200,9 @@
   },
   {
    "compression": 8,
-   "hash": "2aa3e39bb6182d3d885305059bf321ab6e31807e",
+   "hash": "e080bcb73b4d836cc51136d0957c4823e832d00a",
    "pkgpath": "Data/resources.assets",
-   "size": 49224,
+   "size": 39176,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/resources.assets"
   },
   {
@@ -221,16 +221,16 @@
   },
   {
    "compression": 8,
-   "hash": "e1313098d0e23671c7af38c51600f34448c63faa",
+   "hash": "badf38129c1c9b76fa61f5be1eb9be782557cdeb",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 9412040,
+   "size": 8747168,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "bba1e5328f26e70db99410ea6255247a54c53848",
+   "hash": "355ac56bfd6bc09598b77d5cda8610cc9c75c729",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 10914452,
+   "size": 2525844,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {
@@ -262,9 +262,9 @@
   },
   {
    "compression": 8,
-   "hash": "db24fc6f4207e4914b8aa70fc9dfcbadaa09eb6a",
+   "hash": "0dd19f71efad31445ea570389131b418be67dbe3",
    "pkgpath": "manifest.xml",
-   "size": 712,
+   "size": 765,
    "src": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/Temp/StagingArea/manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -272,9 +272,9 @@
      "developer_id": "eca8b656-2c36-47fb-abe6-42b4483b5048"
     }
    },
-   "xfrm_hash": "21a68e1d11939c58be2e04c5e56eb310912f95a4",
+   "xfrm_hash": "1d5c4223d743519bd88fcd65a8da1849d8599991",
    "xfrm_path": "/Users/dvalecillos/Code/Unity/MagicLeapEssentials/.out/.cache/debug_lumin_clang-3.8_aarch64/com.dilmergames.magicleapessentials-3267817fd8884dee/manifest.xml-db2399bcbb7c347b",
-   "xfrm_size": 725
+   "xfrm_size": 778
   },
   {
    "compression": 8,
