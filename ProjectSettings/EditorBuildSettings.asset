@@ -11,9 +11,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/EarthAndRocketController.unity
     guid: e31a56820c0ca4405b3c9d40d186e721
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/ParticleSystemWithMLSpatialMapper.unity
     guid: ada8dde0490f54588a4b434e8c4ff13c
+  - enabled: 1
+    path: Assets/MagicLeap/Examples/Scenes/HandMeshing.unity
+    guid: 973d66364d49a3d4e9aceb19ce1117cb
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 2b1e63dd2b29d4accb75b40a807acd84,
       type: 2}
