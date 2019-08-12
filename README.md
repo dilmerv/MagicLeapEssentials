@@ -6,6 +6,10 @@ Watch the Oculus Quest Essential Video Series in [YouTube](https://www.youtube.c
 
 Results from various examples taught in YouTube:
 
+- Super Powers With Hand Meshing / Tracking / Particles
+
+![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowers.gif)
+
 - Rotating Earth: Demo with New Lumin SDK 0.22.0
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif)
