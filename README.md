@@ -10,6 +10,10 @@ Results from various examples taught in YouTube:
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowers.gif)
 
+- Super Powers With Hand Meshing With Both Hands / Tracking / Particles
+
+![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowersboth.gif)
+
 - Rotating Earth: Demo with New Lumin SDK 0.22.0
 
 ![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif)
