@@ -8,20 +8,21 @@ Results from various examples taught in YouTube:
 
 - Super Powers With Hand Meshing / Tracking / Particles
 
-![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowers.gif)
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowers.gif" width="350">
 
 - Super Powers With Hand Meshing With Both Hands / Tracking / Particles
 
-![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowersboth.gif)
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowersboth.gif" width="350">
 
 - Rotating Earth: Demo with New Lumin SDK 0.22.0
 
-![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif)
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif" width="350">
 
 - Earth With Rocket Controller
 
-![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrocket.gif)
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrocket.gif" width="350">
 
 - Particles Collisions with ML Spatial Mapper 
 
-![image](https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/particlecollisions.gif)
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/particlecollisions.gif" width="350">
+
