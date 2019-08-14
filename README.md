@@ -14,6 +14,10 @@ Results from various examples taught in YouTube:
 
 <img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/superpowersboth.gif" width="350">
 
+- Grabber And Grabbable Components
+
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/grabber.gif" width="350">
+
 - Rotating Earth: Demo with New Lumin SDK 0.22.0
 
 <img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif" width="350">
