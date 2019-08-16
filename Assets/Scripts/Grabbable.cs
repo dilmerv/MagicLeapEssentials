@@ -39,7 +39,7 @@ public class Grabbable : MonoBehaviour
     private void Grab(Collider other)
     {
         _grabber = other.gameObject.GetComponent<Grabber>();
-        if(_grabber != null && _grabber.IsGrabbing)
+        if(_grabber != null && _grabber.IsTriggerOn)
         {
             Grabbed = true;
 
@@ -60,7 +60,7 @@ public class Grabbable : MonoBehaviour
         if(_grabber == null)
             Grab(other);
 
-        if(_grabber != null && !_grabber.IsGrabbing)
+        if(_grabber != null && !_grabber.IsTriggerOn)
         {
             Grabbed = false;
             if(_rigidBody != null && useGravity)

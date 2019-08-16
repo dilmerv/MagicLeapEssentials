@@ -18,6 +18,10 @@ Results from various examples taught in YouTube:
 
 <img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/grabber.gif" width="350">
 
+- Selection and Hovering AR Objects
+
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/selection.gif" width="350">
+
 - Rotating Earth: Demo with New Lumin SDK 0.22.0
 
 <img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/earthrotating.gif" width="350">

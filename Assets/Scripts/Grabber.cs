@@ -7,9 +7,9 @@ public class Grabber : MonoBehaviour
     private ControllerConnectionHandler _controllerConnectionHandler;
 
     [SerializeField]
-    private bool grabbing = false;
+    private bool isTriggerOn = false;
 
-    public bool IsGrabbing => grabbing;
+    public bool IsTriggerOn => isTriggerOn;
 
     void Start()
     {
@@ -24,9 +24,9 @@ public class Grabber : MonoBehaviour
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.LeftShift))
-            grabbing = true;
+            isTriggerOn = true;
         if(Input.GetKeyUp(KeyCode.LeftShift))
-            grabbing = false;
+            isTriggerOn = false;
     }
 
     #endif
@@ -37,7 +37,7 @@ public class Grabber : MonoBehaviour
         {
             MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(value * 2.0f));
             controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, intensity);
-            grabbing = true;
+            isTriggerOn = true;
         }
     }
 
@@ -46,7 +46,7 @@ public class Grabber : MonoBehaviour
         MLInputController controller = _controllerConnectionHandler.ConnectedController;
         if (controller != null && controller.Id == controllerId)
         {
-            grabbing = false;
+            isTriggerOn = false;
         }
     }
 }
