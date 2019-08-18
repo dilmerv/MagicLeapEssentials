@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-public class GrabberDebug : MonoBehaviour
+public class HideInPlatform : MonoBehaviour
 {
     #if !UNITY_EDITOR
     void Awake() => gameObject.SetActive(false);
