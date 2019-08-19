@@ -1,5 +1,4 @@
-﻿using TMPro;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 
 [RequireComponent(typeof(ControllerConnectionHandler))]

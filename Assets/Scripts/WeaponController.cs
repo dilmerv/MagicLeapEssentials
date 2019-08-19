@@ -30,7 +30,7 @@ public class WeaponController : MonoBehaviour
     private float bulletInitialPositionZ = 0;
 
     [SerializeField]
-    private float bulletAliveFor = 20.0f;
+    private float bulletAliveFor = 1.0f;
 
     [SerializeField]
     private float bulletFrequency = 0.5f;
@@ -49,7 +49,7 @@ public class WeaponController : MonoBehaviour
     {
         _controllerConnectionHandler = GetComponent<ControllerConnectionHandler>();
         MLInput.OnTriggerDown += HandleOnTriggerDown;
-
+        
         if(weaponStatsParamsText != null)
         {
             weaponStatsParamsText.text = 
@@ -102,7 +102,7 @@ public class WeaponController : MonoBehaviour
     private void HandleOnTriggerDown(byte controllerId, float value)
     {
         MLInputController controller = _controllerConnectionHandler.ConnectedController;
-        if (controller != null && controller.Id == controllerId)
+        if (controller != null && controller.Id == controllerId && value == 1)
         {
             MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(value * 2.0f));
             controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, intensity);

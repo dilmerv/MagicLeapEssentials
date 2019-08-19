@@ -23,9 +23,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/HandMeshingSuperPowersMultiple.unity
     guid: 7455f0459965d4e9980672c80d656f31
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Grabbables.unity
     guid: 754adfe95c8d04d78ac57d8f8783766a
+  - enabled: 1
+    path: Assets/Scenes/WeaponController.unity
+    guid: fce75d372c36340fbb297e146cdacf47
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 2b1e63dd2b29d4accb75b40a807acd84,
       type: 2}

@@ -679,7 +679,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.0008000061
+      value: -0.365
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -837,7 +837,6 @@ GameObject:
   m_Component:
   - component: {fileID: 222157889}
   - component: {fileID: 222157892}
-  - component: {fileID: 222157891}
   - component: {fileID: 222157890}
   m_Layer: 0
   m_Name: WeaponController
@@ -878,28 +877,16 @@ MonoBehaviour:
   nameYourWeapon: GREEN WEAPON
   bulletPrefab: {fileID: 2969028705505027363, guid: 7f3a547dbf6ef4f488c5c1a84e39831a,
     type: 3}
-  weapon: {fileID: 1487573483}
-  force: 1200
+  weapon: {fileID: 222157888}
+  force: 475
   bulletForceMode: 0
   bulletInitialPositionX: 0
-  bulletInitialPositionY: 0.06
-  bulletInitialPositionZ: -0.05
+  bulletInitialPositionY: 0
+  bulletInitialPositionZ: 0
   bulletAliveFor: 1
-  bulletFrequency: 0.01
+  bulletFrequency: 0.5
   bulletSound: {fileID: 627045019}
   weaponStatsParamsText: {fileID: 1306175588}
---- !u!114 &222157891
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 222157888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a51a8e1b9e893f04d952ef91c4aeb428, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &222157892
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1295,7 +1282,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 364122664}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.127, z: 1.138}
+  m_LocalPosition: {x: 0, y: -0.49280003, z: 1.138}
   m_LocalScale: {x: 1.0939062, y: 0.01787373, z: 1.2237263}
   m_Children: []
   m_Father: {fileID: 1258652459}
@@ -1370,7 +1357,6 @@ GameObject:
   m_Component:
   - component: {fileID: 370060854}
   - component: {fileID: 370060857}
-  - component: {fileID: 370060856}
   - component: {fileID: 370060855}
   m_Layer: 0
   m_Name: WeaponController
@@ -1411,28 +1397,16 @@ MonoBehaviour:
   nameYourWeapon: BLUE WEAPON
   bulletPrefab: {fileID: 2969028705505027363, guid: 7f3a547dbf6ef4f488c5c1a84e39831a,
     type: 3}
-  weapon: {fileID: 1379466946}
-  force: 1200
+  weapon: {fileID: 370060853}
+  force: 425
   bulletForceMode: 0
   bulletInitialPositionX: 0
-  bulletInitialPositionY: 0.06
-  bulletInitialPositionZ: -0.05
+  bulletInitialPositionY: 0
+  bulletInitialPositionZ: 0
   bulletAliveFor: 1
-  bulletFrequency: 0.01
+  bulletFrequency: 0.05
   bulletSound: {fileID: 627045019}
   weaponStatsParamsText: {fileID: 1113234199}
---- !u!114 &370060856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 370060853}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a51a8e1b9e893f04d952ef91c4aeb428, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &370060857
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1863,7 +1837,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.254
+      value: -0.111800015
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -2583,7 +2557,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.111
+      value: -0.25480002
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -4350,7 +4324,7 @@ PrefabInstance:
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
@@ -5144,7 +5118,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1155996400}
   - component: {fileID: 1155996403}
-  - component: {fileID: 1155996402}
   - component: {fileID: 1155996401}
   m_Layer: 0
   m_Name: WeaponController
@@ -5185,28 +5158,16 @@ MonoBehaviour:
   nameYourWeapon: RED WEAPON
   bulletPrefab: {fileID: 2969028705505027363, guid: 7f3a547dbf6ef4f488c5c1a84e39831a,
     type: 3}
-  weapon: {fileID: 899758360}
-  force: 1200
+  weapon: {fileID: 1155996399}
+  force: 450
   bulletForceMode: 0
   bulletInitialPositionX: 0
-  bulletInitialPositionY: 0.06
-  bulletInitialPositionZ: -0.05
+  bulletInitialPositionY: 0
+  bulletInitialPositionZ: 0
   bulletAliveFor: 1
-  bulletFrequency: 0.01
+  bulletFrequency: 0.1
   bulletSound: {fileID: 627045019}
   weaponStatsParamsText: {fileID: 1119167073}
---- !u!114 &1155996402
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1155996399}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a51a8e1b9e893f04d952ef91c4aeb428, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &1155996403
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5464,6 +5425,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1236730522}
   - component: {fileID: 1236730524}
+  - component: {fileID: 1236730525}
   - component: {fileID: 1236730523}
   m_Layer: 0
   m_Name: WeaponControllerManager
@@ -5471,7 +5433,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1236730522
 Transform:
   m_ObjectHideFlags: 0
@@ -5515,6 +5477,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _devicesAllowed: 7
+--- !u!114 &1236730525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236730521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a51a8e1b9e893f04d952ef91c4aeb428, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1249593026
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5535,7 +5509,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.129
+      value: -0.23680003
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -5740,7 +5714,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.299
+      value: -0.06680003
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -6055,7 +6029,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.282
+      value: -0.08380002
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -7323,7 +7297,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1568108798
 Transform:
   m_ObjectHideFlags: 0
@@ -8114,7 +8088,7 @@ PrefabInstance:
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
@@ -8414,7 +8388,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -8489,7 +8463,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -8742,7 +8716,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 0.13419998
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -9220,7 +9194,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.115
+      value: -0.2508
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -10534,7 +10508,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -10796,7 +10770,7 @@ PrefabInstance:
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
@@ -11426,7 +11400,6 @@ GameObject:
   m_Component:
   - component: {fileID: 4724019064990973}
   - component: {fileID: 114463423911346909}
-  - component: {fileID: 114537920914982231}
   - component: {fileID: 1463616567276310}
   m_Layer: 0
   m_Name: WeaponController
@@ -11450,12 +11423,12 @@ MonoBehaviour:
   nameYourWeapon: ML CONTROL
   bulletPrefab: {fileID: 2969028705505027363, guid: 7f3a547dbf6ef4f488c5c1a84e39831a,
     type: 3}
-  weapon: {fileID: 1854827869308689}
-  force: 1200
+  weapon: {fileID: 1463616567276309}
+  force: 400
   bulletForceMode: 0
   bulletInitialPositionX: 0
-  bulletInitialPositionY: 0.06
-  bulletInitialPositionZ: -0.05
+  bulletInitialPositionY: 0
+  bulletInitialPositionZ: 0
   bulletAliveFor: 1
   bulletFrequency: 0.001
   bulletSound: {fileID: 627045019}
@@ -13086,8 +13059,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a955ee40b78a2c489d4859b55f1f5e3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CanvasDistanceForwards: 1
-  CanvasDistanceUpwards: 0.6
+  CanvasDistanceForwards: 1.8
+  CanvasDistanceUpwards: 0.15
   PositionLerpSpeed: 2
   RotationLerpSpeed: 1
 --- !u!114 &114463423911346909
@@ -13103,18 +13076,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _devicesAllowed: 6
---- !u!114 &114537920914982231
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1463616567276309}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a51a8e1b9e893f04d952ef91c4aeb428, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!114 &114801979209270193
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13191,7 +13152,7 @@ RectTransform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1584784460931717}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0.818}
+  m_LocalPosition: {x: 0, y: 0, z: 1.5}
   m_LocalScale: {x: 1, y: 1, z: 0}
   m_Children:
   - {fileID: 1429571659}
@@ -13226,7 +13187,7 @@ PrefabInstance:
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 8978532933480793698, guid: 16c5751dbe35d4ce2b5e49ada3ccb18f,
         type: 3}
@@ -13380,7 +13341,7 @@ PrefabInstance:
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.0382
+      value: -0.404
       objectReference: {fileID: 0}
     - target: {fileID: 3039201998654531897, guid: ba363e794861d4191b7bf7b8b2a08275,
         type: 3}
