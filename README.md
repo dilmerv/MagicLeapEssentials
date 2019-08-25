@@ -22,6 +22,10 @@ Results from various examples taught in YouTube:
 
 <img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/selection.gif" width="350">
 
+- Planet Selection and Detail Information
+
+<img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/planets.gif" width="350">
+
 - Weapon Control Manager, Shooting Objects, RayCasting, & Weapon Controller
 
 <img src="https://github.com/dilmerv/MagicLeapEssentials/blob/master/docs/images/shooting.gif" width="350">
