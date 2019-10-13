@@ -71,7 +71,7 @@ MonoBehaviour:
   - name: AudioRecognizer
     enabled: 0
   - name: CameraCapture
-    enabled: 0
+    enabled: 1
   - name: CoarseLocation
     enabled: 0
   - name: ComputerVision

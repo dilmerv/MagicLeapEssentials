@@ -87,7 +87,6 @@ namespace MagicLeap
             _trackerBehavior = GetComponent<MLImageTrackerBehavior>();
             _trackerBehavior.OnTargetFound += OnTargetFound;
             _trackerBehavior.OnTargetLost += OnTargetLost;
-
             RefreshViewMode();
         }
 
