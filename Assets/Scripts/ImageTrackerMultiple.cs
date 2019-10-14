@@ -2,9 +2,8 @@
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
 
-
 [RequireComponent(typeof(ControllerConnectionHandler))]
-public class ImageTracker : MonoBehaviour
+public class ImageTrackerMultiple : MonoBehaviour
 {
     [SerializeField]
     private Text imageTrackingStatus;
@@ -13,18 +12,11 @@ public class ImageTracker : MonoBehaviour
     private Text debugLog;
 
     [SerializeField]
-    private MLImageTrackerBehavior imageTrackerBehaviour;
-
-    [SerializeField]
-    private GameObject targetprefab;
-
-    private GameObject targetObject;
+    private ImageTrackingObject[] imageTrackingObjects;
 
     private ControllerConnectionHandler connectionHandler;
 
     private PrivilegeRequester privilegeRequester;
-
-    private bool startTracking = false;
 
     void Awake()
     {
@@ -65,43 +57,12 @@ public class ImageTracker : MonoBehaviour
         }
 
         debugLog.text = $"Succeeded in requesting all privileges";
-        StartCapture();
-    }
 
-    private void StartCapture()
-    {
-        imageTrackerBehaviour.gameObject.SetActive(true);
-        imageTrackerBehaviour.enabled = true;
-        imageTrackerBehaviour.OnTargetFound += OnTargetFound;
-        imageTrackerBehaviour.OnTargetLost += OnTargetLost;
-        imageTrackerBehaviour.OnTargetUpdated += OnTargetUpdated;
-    }
-
-    private void OnTargetFound(bool isReliable)
-    {
-        debugLog.text = isReliable ? "The target is reliable" : "The target is not reliable";
-    }
-
-    private void OnTargetLost()
-    {
-        debugLog.text = "The target was lost";
-    }
-
-    private void OnTargetUpdated(MLImageTargetResult imageTargetResult)
-    {
-        if(!startTracking){
-            debugLog.text = "Start capturing is currently disabled";
-            targetObject.SetActive(startTracking);
-            return;
+        // Setup ML Image Tracking Behaviour 
+        foreach(ImageTrackingObject imageTrackingObject in imageTrackingObjects)
+        {
+            imageTrackingObject.Setup();
         }
-
-        targetObject.SetActive(startTracking);
-        imageTrackingStatus.text = imageTargetResult.Status.ToString();
-
-        if(targetObject == null)
-            targetObject = Instantiate(targetprefab, imageTargetResult.Position, imageTargetResult.Rotation);
-        else
-            targetObject.transform.SetPositionAndRotation(imageTargetResult.Position, imageTargetResult.Rotation);
     }
 
     private void HandleOnTriggerDown(byte controllerId, float value)
@@ -112,15 +73,23 @@ public class ImageTracker : MonoBehaviour
             MLInputControllerFeedbackIntensity intensity = (MLInputControllerFeedbackIntensity)((int)(value * 2.0f));
             controller.StartFeedbackPatternVibe(MLInputControllerFeedbackPatternVibe.Buzz, intensity);
             debugLog.text = "Start Capturing has been enabled by the trigger button action";
-            startTracking = true;
+            
+            // Start tracking
+            foreach(ImageTrackingObject imageTrackingObject in imageTrackingObjects)
+            {
+                imageTrackingObject.Start();
+            }
         }
     }
 
     void OnDestroy()
     {
         MLInput.OnTriggerDown -= HandleOnTriggerDown;
-        imageTrackerBehaviour.OnTargetFound -= OnTargetFound;
-        imageTrackerBehaviour.OnTargetLost -= OnTargetLost;
-        imageTrackerBehaviour.OnTargetUpdated -= OnTargetUpdated;
+
+        // Stop tracking
+        foreach(ImageTrackingObject imageTrackingObject in imageTrackingObjects)
+        {
+            imageTrackingObject.Stop();
+        }
     }
 }

@@ -1960,8 +1960,8 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Trigger:\n    Press the trigger button to start capturing\n\nThis is an
-    example of using Image Tracking functionality with a common logo you\ncan print
-    out (Unity Logo and Magic Leap Logo)"
+    example of using Image Tracking functionality with a single prefab and\na single
+    image object."
 --- !u!222 &1346714209
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2300,8 +2300,7 @@ MonoBehaviour:
   imageTrackingStatus: {fileID: 288081785}
   debugLog: {fileID: 1018681707}
   imageTrackerBehaviour: {fileID: 180258766}
-  targetObject: {fileID: 2054954338407719104, guid: 100d8c7f7329c4513816eff7da706804,
-    type: 3}
+  targetprefab: {fileID: 0}
 --- !u!114 &1786821728
 MonoBehaviour:
   m_ObjectHideFlags: 0
